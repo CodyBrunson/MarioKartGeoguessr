@@ -2,6 +2,7 @@
 
 This is a simple web application designed to assist with the Mario Kart Geoguessr stream by Raysfire. It provides an easy-to-use interface for managing and displaying image submissions and hint levels during the game, addressing the challenges of on-the-fly updates.
 
+Feel free to review any code before running it for your own safety.
 ## How to Use
 
 ### Getting Started
@@ -17,6 +18,7 @@ This is a simple web application designed to assist with the Mario Kart Geoguess
     ```
 
 3.  **Open in browser:** Open the local URL that the previous command provides in your console (e.g., `http://localhost:5173`).
+4. Sample Data has been added under `sample-data/user.json`.
 
 ### Creating and Managing Data Files
 
