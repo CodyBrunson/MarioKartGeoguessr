@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Arctic John",
+    "images": {
+      "hard": "https://cdn.discordapp.com/attachments/1390479432480985138/1391297856320573460/SPOILER_20250705225758-01JZF4SDBV1GJYS3W127VAQBPE.png?ex=686c0b5a&is=686ab9da&hm=6654d004f77ee29303c9d92c5d5a1756e39470a23a4ad0d2f166e33dac3066c4&",
+      "medium": "https://cdn.discordapp.com/attachments/1390479432480985138/1391297856559779850/SPOILER_20250705225759-01JZF4T55R33PYM848B458J7K8.png?ex=686c0b5a&is=686ab9da&hm=dd57dd9b833e46b4e9171de7d02991818757d572b9e54219c01e35a317d67e87&",
+      "easy": "https://cdn.discordapp.com/attachments/1390479432480985138/1391297856823885894/SPOILER_20250705225800-01JZF4TQWY56KECRKKSVRM8B52.png?ex=686c0b5a&is=686ab9da&hm=717a0915d4cc697fde46a7cfc35c505ac9186c5dfb77417bd97a9a2b2fdbcbd8&",
+      "reveal": "https://cdn.discordapp.com/attachments/1390479432480985138/1391297857109102653/SPOILER_20250705225757-01JZF4RXVWHZXNY3QY7YR4C3GX.png?ex=686c0b5a&is=686ab9da&hm=7c18099da6351e94343b0adbf0383fc0c330d833eb0c72e2989378901fc16499&"
+    }
+  },
+  {
+    "id": 2,
+    "name": "cypress",
+    "images": {
+      "hard": "https://cdn.discordapp.com/attachments/1390479432480985138/1391125161498906754/SPOILER_hint1.jpg?ex=686c1344&is=686ac1c4&hm=b63d20a1e26f5c8b92f2e45591042ac11439ef9bf8340fd0a855d1b1f0249147&",
+      "medium": "https://cdn.discordapp.com/attachments/1390479432480985138/1391125161977184296/SPOILER_hint2.jpg?ex=686c1344&is=686ac1c4&hm=d9c85adeb61577d77c4b0ca0cc3a629ba71ce8719f75ea201270c8c94b2a5ada&",
+      "easy": "https://cdn.discordapp.com/attachments/1390479432480985138/1391125162405134420/SPOILER_hint3.jpg?ex=686c1344&is=686ac1c4&hm=802b88f2edc305fb4f2a9f0892558b244c86f673b8385b85aee3e2929a40b88e&",
+      "reveal": "https://cdn.discordapp.com/attachments/1390479432480985138/1391125163029954591/SPOILER_map.jpg?ex=686c1344&is=686ac1c4&hm=6ae94ca14e6433fbab72d175426a51b766b75541b26e0fb2ffabfb24223f2355&"
+    }
+  }
+]
