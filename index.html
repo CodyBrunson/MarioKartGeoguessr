@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mario Kart Geoguessr</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main id="app">
+      <h1 class="title">
+          Mario Kart Geoguessr
+      </h1>
+        <section class="load-files">
+            <button class="load-files-button">Load File</button>
+            <input type="file" id="file-loader" accept=".json" />
+            <button><a href="/fileCreation.html">Create File</a></button>
+
+        </section>
+        <section class="hint-buttons">
+            <div class="hint-interaction">
+                <button class="hint-level1">Easy</button>
+                <button class="hint-level2">Medium</button>
+                <button class="hint-level3">Hard</button>
+                <button class="hint-reveal">Reveal</button>
+            </div>
+        </section>
+        <section class="timer">
+            <div class="timer-interaction">
+                <button class="timer-start">Start</button>
+                <button class="timer-stop">Stop</button>
+                <button class="timer-reset">Reset</button>
+            </div>
+            </br>
+            <div class="timer-text">
+                00:00:00
+            </div>
+        </section>
+        <section class="submission">
+            <div class="submission-text">
+                Spot By:
+            </div>
+            <div class="submission-user">
+                Imp____
+            </div>
+        </section>
+        <section class="hint">
+            <div class="hint-text">
+                Current Hint Level:</div>
+            <div class="hint-difficulty">
+                Hard
+            </div>
+            <br>
+            <div class="hint-img">
+                <img id="hint-img-src" src="/imgs/raysfire.png" width="360" height="200" alt="raysfire.png">
+            </div>
+        </section>
+        <section class="locations">
+            <div class="locations-interaction">
+                <select class="locations-select" hidden="true">
+                </select>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="/src/index.ts"></script>
+</body>
+</html>

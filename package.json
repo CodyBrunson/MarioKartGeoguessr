@@ -1,0 +1,18 @@
+{
+  "name": "MarioKart_Geoguesser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "vite"
+
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "prettier": "^3.3.1",
+    "vite": "^5.2.0"
+  },
+  "private": true
+}

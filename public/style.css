@@ -1,0 +1,78 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    font-family: "Montserrat", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #000000;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    align-items: center;
+
+    background-image: url("background.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#file-loader {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+h1 {
+    font-size: 29px;
+    line-height: 39px;
+    font-weight: 700;
+}
+
+.title {
+    font-family: "Montserrat", Inter, system-ui, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#app {
+    max-width: 1280px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.submission-text,
+.submission-user,
+.hint-text,
+.hint-difficulty {
+    font-family: "Montserrat", Inter, system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.timer-text {
+    font-family: "Montserrat", Inter, system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+a,
+button {
+    text-decoration: none;
+    font-family: "Montserrat", Inter, system-ui, sans-serif;
+    font-weight: 700;
+    background-color: rgba(25, 25, 28, 0.5);
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+}

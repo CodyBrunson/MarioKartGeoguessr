@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mario Kart Geoguessr - File Creation</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main id="app">
+    <h1 class="title">
+      Mario Kart Geoguessr - File Creation
+    </h1>
+    <section class="file-interaction">
+      <div class="file-interaction-user">
+        <label for="name">User's Name: </label><input class="file-interaction-input" type="text" name="name" id="name">
+      </div>
+      <div class="file-interaction-hard">
+        <label for="hard">Hard Image: </label><input class="file-interaction-input" type="text" name="hard" id="hard">
+      </div>
+      <div class="file-interaction-medium">
+        <label for="medium">Medium Image: </label><input class="file-interaction-input" type="text" name="medium" id="medium">
+      </div>
+      <div class="file-interaction-easy">
+        <label for="easy">Easy Image: </label><input class="file-interaction-input" type="text" name="easy" id="easy">
+      </div>
+      <div class="file-interaction-easy">
+        <label for="reveal">Reveal Image: </label><input class="file-interaction-input" type="text" name="reveal" id="reveal">
+      </div>
+    </section>
+    <br>
+    <button class="file-interaction-add-button">Add</button>
+    <button class="file-interaction-update-button">Update</button>
+    <section class="file-users">
+      <ul class="file-users-list">
+      </ul>
+    </section>
+    <br>
+    <br>
+    <button class="file-interaction-create-button">Create</button>
+    <input type="file" id="file-loader" accept=".json" />
+    <button class="file-interaction-load-button">Load</button>
+  </main>
+</body>
+<script type="module" src="/src/fileCreation.ts"></script>
+</html>

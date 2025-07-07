@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    // --- Key Settings for Vite ---
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ESNext", "DOM"],
+
+    // --- Recommended Best Practices ---
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "noEmit": true,
+
+    // --- Project Structure ---
+    "include": ["src"]
+  }
+}
